@@ -1,0 +1,12 @@
+INSERT INTO Staffs VALUES (100000, 'Emma', 'Johnson', 1, '858-293-3097', 'Administration dept');
+INSERT INTO Staffs VALUES (100001, 'Emma', 'Johnson', 1, '858-903-3148', 'Administration dept');
+INSERT INTO Staffs VALUES (100100, 'Ava', 'Miller', 2, '858-203-3800', 'Heart dept');
+INSERT INTO Staffs VALUES (100101, 'Ethan', 'Johnson', 2, '248-726-3948', 'Heart dept');
+INSERT INTO Staffs VALUES (100121, 'Amelia', 'Johnson', 2, '858-726-3948', 'ENT dept');
+INSERT INTO Staffs VALUES (100202, 'Sophia', 'Davis', 3, '858-203-1848', 'Nurse dept');
+INSERT INTO Staffs VALUES (100222, 'Mia', 'Williams', 3, '308-203-1848', 'Nurse dept');
+INSERT INTO Staffs VALUES (100203, 'Isabella', 'Brown', 4, '858-256-3970', 'Surgeon dept 3');
+INSERT INTO Staffs VALUES (100300, 'James', 'Taylor', 4, '619-203-1949', 'Surgeon dept 1');
+INSERT INTO Staffs VALUES (100301, 'Lucas', 'Millor', 4, '219-207-9830', 'Surgeon dept 1');
+INSERT INTO Staffs VALUES (100302, 'Ethan', 'Evans', 4, '619-702-0395', 'Surgeon dept 2');
+INSERT INTO Staffs VALUES (100303, 'Charlotte', 'Brown', 4, '626-243-1960', 'Surgeon dept 2');

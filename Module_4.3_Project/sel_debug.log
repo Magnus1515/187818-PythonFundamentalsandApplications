@@ -1,0 +1,88 @@
+Selenium Manager binary found at: /Users/magnus/Desktop/code-projects/187818-PythonFundamentalsandApplications/.venv/lib/python3.13/site-packages/selenium/webdriver/common/macos/selenium-manager
+Executing process: /Users/magnus/Desktop/code-projects/187818-PythonFundamentalsandApplications/.venv/lib/python3.13/site-packages/selenium/webdriver/common/macos/selenium-manager --browser firefox --debug --language-binding python --output json
+Sending stats to Plausible: Props { browser: "firefox", browser_version: "", os: "macos", arch: "arm64", lang: "python", selenium_version: "4.33" }
+Found geckodriver 0.36.0 in PATH: /opt/homebrew/bin/geckodriver
+firefox detected at /Applications/Firefox.app/Contents/MacOS/firefox
+Running command: /Applications/Firefox.app/Contents/MacOS/firefox -v
+Output: "Mozilla Firefox 138.0.4"
+Detected browser: firefox 138.0.4
+Valid geckodriver versions for firefox 138: ["0.36.0", "0.35.0", "0.34.0"]
+Required driver: geckodriver 0.36.0
+Driver path: /opt/homebrew/bin/geckodriver
+Browser path: /Applications/Firefox.app/Contents/MacOS/firefox
+Started executable: `/opt/homebrew/bin/geckodriver` in a child process with pid: 29317 using 0 to output -3
+POST http://localhost:54276/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'firefox', 'acceptInsecureCerts': True, 'moz:debuggerAddress': True, 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'moz:firefoxOptions': {'binary': '/Applications/Firefox.app/Contents/MacOS/firefox', 'prefs': {'remote.active-protocols': 1}}}}}
+Remote response: status=200 | data={"value":{"sessionId":"ef384c88-e519-4ab6-a8e9-5b73ed9b6210","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"138.0.4","moz:accessibilityChecks":false,"moz:buildID":"20250517143237","moz:geckodriverVersion":"0.36.0","moz:headless":false,"moz:platformVersion":"24.5.0","moz:processID":29318,"moz:profile":"/var/folders/7k/pb8_z_1d101fs7dlwbfbhtnm0000gn/T/rust_mozprofileacKi4E","moz:shutdownTimeout":60000,"moz:webdriverClick":true,"moz:windowless":false,"pageLoadStrategy":"normal","platformName":"mac","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0"}}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '812', 'date': 'Tue, 27 May 2025 02:26:07 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/url {'url': 'https://magento.softwaretestingboard.com/'}
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 27 May 2025 02:26:08 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/window/maximize {}
+Remote response: status=200 | data={"value":{"x":0,"y":25,"width":2560,"height":1353}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '51', 'date': 'Tue, 27 May 2025 02:26:09 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element {'using': 'css selector', 'value': '[id="ui-id-3"]'}
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"34c81094-4ba8-4303-bcc2-e59336c80b00"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Tue, 27 May 2025 02:26:09 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element/34c81094-4ba8-4303-bcc2-e59336c80b00/click {}
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 27 May 2025 02:26:09 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element {'using': 'link text', 'value': 'Create an Account'}
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"b007a93e-7f76-445f-b995-6e62a86c9d35"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element/b007a93e-7f76-445f-b995-6e62a86c9d35/click {}
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element {'using': 'css selector', 'value': '[id="firstname"]'}
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"82d0ebe9-8d98-4e48-8d1b-b60a4048f937"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element/82d0ebe9-8d98-4e48-8d1b-b60a4048f937/value {'text': 'Michael', 'value': ['M', 'i', 'c', 'h', 'a', 'e', 'l']}
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element {'using': 'css selector', 'value': '[id="lastname"]'}
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"400e1f4b-36ae-43d6-bb54-a653633569d5"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element/400e1f4b-36ae-43d6-bb54-a653633569d5/value {'text': 'Jordan', 'value': ['J', 'o', 'r', 'd', 'a', 'n']}
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element {'using': 'css selector', 'value': '[id="email_address"]'}
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"5a9e6e8c-3049-4d44-a8c3-aeeb0c152660"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element/5a9e6e8c-3049-4d44-a8c3-aeeb0c152660/value {'text': 'michael.jordan4@gmail.com', 'value': ['m', 'i', 'c', 'h', 'a', 'e', 'l', '.', 'j', 'o', 'r', 'd', 'a', 'n', '4', '@', 'g', 'm', 'a', 'i', 'l', '.', 'c', 'o', 'm']}
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element {'using': 'css selector', 'value': '[id="password"]'}
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"78275f55-b8ae-4365-833f-6b3a480b9e90"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element/78275f55-b8ae-4365-833f-6b3a480b9e90/value {'text': 'Michael12345', 'value': ['M', 'i', 'c', 'h', 'a', 'e', 'l', '1', '2', '3', '4', '5']}
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element {'using': 'css selector', 'value': '[id="password-confirmation"]'}
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"0eb11766-3264-46a4-a7ad-8ab9b275800d"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element/0eb11766-3264-46a4-a7ad-8ab9b275800d/value {'text': 'Michael12345', 'value': ['M', 'i', 'c', 'h', 'a', 'e', 'l', '1', '2', '3', '4', '5']}
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element {'using': 'css selector', 'value': '.primary'}
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"ecc5493a-7f7c-4518-a8cc-e3a83f6e1784"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element/ecc5493a-7f7c-4518-a8cc-e3a83f6e1784/click {}
+Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 27 May 2025 02:26:11 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element {'using': 'xpath', 'value': "//*[text()='Thank you for registering with Main Website Store.']"}
+Remote response: status=404 | data={"value":{"error":"no such element","message":"Unable to locate element: //*[text()='Thank you for registering with Main Website Store.']","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16\n"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '448', 'date': 'Tue, 27 May 2025 02:26:14 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element {'using': 'xpath', 'value': "//*[text()='Thank you for registering with Main Website Store.']"}
+Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"0a86778e-c163-44bc-a243-6f4cd867107e"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Tue, 27 May 2025 02:26:14 GMT'})
+Finished Request
+POST http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/execute/sync {'script': '/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof...', 'args': [{'element-6066-11e4-a52e-4f735466cecf': '0a86778e-c163-44bc-a243-6f4cd867107e'}]}
+Remote response: status=200 | data={"value":true} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 27 May 2025 02:26:14 GMT'})
+Finished Request
+GET http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/element/0a86778e-c163-44bc-a243-6f4cd867107e/text {}
+Remote response: status=200 | data={"value":"Thank you for registering with Main Website Store."} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '62', 'date': 'Tue, 27 May 2025 02:26:14 GMT'})
+Finished Request
+DELETE http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210/window {}
+Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '12', 'date': 'Tue, 27 May 2025 02:26:14 GMT'})
+Finished Request
+DELETE http://localhost:54276/session/ef384c88-e519-4ab6-a8e9-5b73ed9b6210 {}
+Remote response: status=404 | data={"value":{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":""}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '123', 'date': 'Tue, 27 May 2025 02:26:15 GMT'})
+Finished Request
